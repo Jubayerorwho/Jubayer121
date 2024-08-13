@@ -1,0 +1,154 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: #147449;
+} /* header part start */
+header{ 
+
+width: 100%;
+color: rgb(36, 111, 176);
+background-color: black;
+display: flex ;
+}
+.logo{
+font-size: 30px ;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 800;
+margin-left: 10px;
+padding: 10px;
+}
+.navbar{ 
+justify-content: center;
+display: flex;
+align-items: center;
+
+}
+.navbar ul { 
+    list-style: none;
+}
+
+.navbar ul li { 
+background-color: rgb(80, 177, 35);
+width: 170px;
+border: 1x solid black;
+height: 60px ;
+float: left;
+text-align: center;
+color: #dddd;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+position: relative;
+line-height: 50px ;
+
+}
+
+.navbar ul li a{ 
+text-decoration: none;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.navbar ul li:hover{   
+background-color: crimson;
+
+}
+
+.navbar ul ul{ 
+    display: none;
+}
+.navbar ul li:hover > ul{ display: block;}
+/* header part end */
+/* form start */
+
+.form1{
+background-color: crimson;
+color: azure;
+text-align: center;
+margin: 0 auto ;
+font-size: 20px ;
+width: fit-content;
+height: fit-content;
+padding: 20px 80px;
+margin-top: 20px ;
+border-radius: 5%;
+box-shadow: #dddd;
+
+}
+.form1 input{ 
+border-radius: 50px;
+border-color: crimson;
+padding: 5px 50px;
+}
+.form1 .btn{ 
+font-weight: bold;
+
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form end */
+
+
+
+
+
+
+
+/*footer start */ 
+
+
+footer{ 
+position: absolute;
+text-align: center;
+background-color: azure;
+bottom: 0;
+width: 100%;
+
+}
+.nm h2{  
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+font-weight: bold;
+}
+
+.text p{ width: 600px;
+text-align: center;
+margin: 0 auto;
+position: relative;
+top: -10px;
+}
+.icon i{ 
+font-size: 35px;
+position: relative;
+top: -10px;
+padding: 10px ;
+margin: 0 auto;
+}
+.copy{ color: aliceblue;
+background-color: black;
+height: 50px ;
+width: 100%;
+line-height: 50px;
+
+}
+
+/* mobile view*/ 
+@media(max-width:788px ) {
+    
+}
